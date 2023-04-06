@@ -1,0 +1,521 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+/* Style for navigation */
+.navbar {
+  background-color: #f7f7f7;
+  height: 95px;
+  width: 100%;
+}
+.logo {
+  height: 100%;
+  width: 15%;
+  float: left;
+}
+.logo img {
+  height: 65%;
+  width: 80%;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.link {
+  height: 100%;
+  width: 65%;
+  float: left;
+}
+.link ul {
+  list-style-type: none;
+}
+.navbar li {
+  float: left;
+}
+.navbar li a {
+  display: block;
+  padding-left: 145px;
+  padding-top: 38px;
+  font-size: 20px;
+  text-decoration: none;
+  
+  color: #111;
+  font-family: "Roboto", sans-serif;
+}
+.navbar li a:hover{
+  color: #7e7e7e;
+}
+.sign-btn {
+  width: 20%;
+
+  height: 100%;
+  float: right;
+}
+.sign-btn button {
+  background-color: #111;
+  color: #f7f7f7;
+  padding: 10px 20px;
+  margin-top: 30px;
+  margin-left: 120px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+}
+.sign-btn button:hover {
+  border: 1px solid #111;
+  background-color: #f7f7f7;
+  color: #111;
+}
+
+
+/* Style for Home.html */
+.main-bdy {
+  width: 100%;
+  height: 500px;
+}
+.main-info {
+  width: 60%;
+  height: 400px;
+  float: left;
+
+  margin-top: 50px;
+  margin-left: 5%;
+}
+.main-slogan1 {
+  width: 490px;
+  padding-left: 100px;
+  padding-top: 70px;
+  font-size: 30px;
+  line-height: 1.3;
+}
+.main-para-1 {
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 16px;
+  line-height: 1.3;
+}
+.main-img {
+  width: 30%;
+  float: right;
+  height: 400px;
+  background-color: red;
+  margin-top: 50px;
+  margin-right: 5%;
+}
+.main-img img {
+  width: 100%;
+  height: 400px;
+}
+.home-btn {
+  background-color: #111;
+  border: none;
+  color: #f7f7f7;
+  padding: 13px 28px;
+  font-size: 14px;
+  transition-duration: 0.2s;
+  border-radius: 4px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.home-btn:hover {
+  background-color: #f7f7f7;
+  color: #111;
+  border: 1px solid #111;
+}
+.Home-sec2 {
+  width: 100%;
+  height: 460px;
+}
+.Jordan-1 {
+  height: 445px;
+  width: 20%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.Jordan-1 img {
+  width: 100%;
+  height: 350px;
+}
+.Force-1 {
+  height: 445px;
+  width: 20%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.Force-1 img {
+  width: 100%;
+  height: 350px;
+}
+.Dunks-1 {
+  height: 445px;
+  width: 20%;
+  float: right;
+  margin-right: 10%;
+  margin-top: 10px;
+}
+.Dunks-1 img {
+  width: 100%;
+  height: 350px;
+}
+.Home-sec2-para {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  font-weight: 1000;
+}
+.HOME-BTN {
+  background-color: #111;
+  border: none;
+  color: #f7f7f7;
+  padding: 13px 28px;
+  font-size: 14px;
+  transition-duration: 0.2s;
+  border-radius: 4px;
+  margin-left: 28%;
+}
+
+
+/* Style for Product.html */
+.banner {
+  height: 150px;
+  width: 100%;
+}
+.product-h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+.Products {
+  height: 1100px;
+  width: 100%;
+}
+.bdy-siz {
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 550px;
+  width: 90%;
+}
+.AM-270 {
+  height: 550px;
+  width: 30%;
+  float: left;
+}
+/*.AM-270:hover {
+  box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+}*/
+.AM-270 img {
+  height: 450px;
+  width: 100%;
+}
+.AM-90 {
+  height: 550px;
+  width: 30%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.AM-90 img {
+  height: 450px;
+  width: 100%;
+}
+.AM-97 {
+  height: 550px;
+  width: 30%;
+  float: left;
+}
+.AM-97 img {
+  height: 450px;
+  width: 100%;
+}
+.bdy-siz-2 {
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 550px;
+  width: 90%;
+}
+.AM-SC {
+  height: 550px;
+  width: 30%;
+  float: left;
+}
+.AM-SC img {
+  height: 450px;
+  width: 100%;
+}
+.AM-Excee {
+  height: 550px;
+  width: 30%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.AM-Excee img {
+  height: 450px;
+  width: 100%;
+}
+.AM-SE {
+  height: 550px;
+  width: 30%;
+  float: left;
+}
+.AM-SE img {
+  height: 450px;
+  width: 100%;
+}
+.img-info {
+  font-size: 14px;
+}
+.img-info h3 {
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+.img-info p {
+  margin-bottom: 5px;
+}
+.banner-2 {
+  width: 100%;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.product-btn-1 {
+  background-color: #111;
+  border: none;
+  color: #f7f7f7;
+  padding: 13px 28px;
+  font-size: 14px;
+  transition-duration: 0.2s;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+.product-btn-1:hover {
+  background-color: #f7f7f7;
+  color: #111;
+  border: 1px solid #111;
+}
+
+
+/* Style for About.html */
+.outline {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 15px;
+  height: 2050px;
+}
+.head-1 {
+  width: 100%;
+  height: 200px;
+  color: rgb(255, 193, 0);
+  text-align: center;
+}
+.abt-slogan {
+  padding-top: 80px;
+  text-align: center;
+}
+.abt-1 {
+  width: 100%;
+  height: 600px;
+  background-color: #f7f7f7;
+}
+.paragraph-1 {
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+.image-para-1 {
+  width: 50%;
+  height: 600px;
+  float: right;
+}
+.image-para-1 img {
+  width: 100%;
+  height: 600px;
+}
+.abt-2 {
+  width: 100%;
+  height: 600px;
+  margin-top: 25px;
+  background-color: #f7f7f7;
+}
+.paragraph-2 {
+  width: 50%;
+  height: 600px;
+  float: right;
+}
+.image-para-2 {
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+.image-para-2 img {
+  width: 100%;
+  height: 600px;
+}
+.abt-3 {
+  width: 100%;
+  height: 600px;
+  margin-top: 25px;
+  background-color: #f7f7f7;
+}
+.paragraph-3 {
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+.image-para-3 {
+  width: 50%;
+  height: 600px;
+  float: right;
+  background-color: fuchsia;
+}
+.image-para-3 img {
+  width: 100%;
+  height: 600px;
+}
+.abt-h2 {
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+.Info-abt1 {
+  line-height: 1.3;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+.Info-abt2 {
+  margin-top: 10px;
+  line-height: 1.3;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+
+
+/* Style for Contact.html*/
+.Contact-bdy {
+  height: 160px;
+  width: 100%;
+}
+.inner-bdy {
+  height: 400px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: red;
+}
+.contact-para-1 {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 60px;
+}
+.contact-para-2 {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 7px;
+}
+form {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 5px;
+  width: 600px;
+  margin: 0 auto;
+  color: #f7f7f7;
+  height: 310px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  background-color: #f7f7f7;
+  color: #111;
+  padding: 13px 28px;
+  font-size: 14px;
+  transition-duration: 0.2s;
+  border-radius: 4px;
+  border: none;
+}
+input[type="submit"]:hover {
+  border: 1px solid #f7f7f7;
+  color: #f7f7f7;
+  background-color: #111;
+}
+
+/*Style for Footer*/
+.ftr {
+  width: 100%;
+  height: 250px;
+  background-color: #111;
+  text-align: center;
+}
+.sec-1 {
+  width: 30%;
+  height: 250px;
+  float: left;
+  margin-left: 5%;
+}
+.sec-2 {
+  width: 30%;
+  height: 250px;
+  float: left;
+}
+.sec-3 {
+  width: 30%;
+  height: 250px;
+
+  float: right;
+  margin-right: 5%;
+}
+.sec-3 i {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 30px;
+  color: #7e7e7e;
+}
+.sec-3 i:hover{
+  color: #f7f7f7;
+}
+.h3-style {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  color: #f7f7f7;
+}
+.ftr ul {
+  list-style-type: none;
+}
+.ftr li {
+  padding-bottom: 13px;
+}
+.ftr a {
+  text-decoration: none;
+  color: #7e7e7e;
+}
+.ftr a:hover {
+  color: #f7f7f7;
+}
+.copyW {
+  text-align: center;
+  background-color: #111;
+  color: #f7f7f7;
+  padding-bottom: 10px;
+}
